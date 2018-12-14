@@ -1,0 +1,764 @@
+﻿:root{
+   --main-font-family: 'Work Sans', sans-serif;
+   --main-font-size: 11px;
+}
+
+body{
+   font-family: 'Work Sans', sans-serif;
+}
+
+nav{
+   position: fixed;
+   width: 100%;
+   height: 30px;
+   border-bottom: 1px solid #fff;
+   z-index: 10;
+<<<<<<< HEAD
+}
+
+.nav-container{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+=======
+}
+
+.nav-container{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+>>>>>>> 570e0ec... Redesign project
+nav ul{
+   display: flex;
+   justify-content: center;
+}
+
+nav ul li{
+   list-style-type: none;
+}
+
+nav li:hover{
+   background-color: #fff;
+<<<<<<< HEAD
+}
+
+nav li:hover > a{
+   color: #424558;
+}
+
+.menu-nav > a{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #fff;
+}
+
+.vertical-menu{
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   top: 31px;
+   width: 100%;
+   border-bottom: 1px solid #fff;
+   transform: translateY(-150%);
+   transition: transform 0.5s;
+}
+
+.vertical-menu > ul{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   background-color: #424558;
+}
+
+.vertical-menu li:hover a{
+   background-color: #fff;
+   color: #424558;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    padding: 30px 20px;
+}
+
+.blue-background{
+    background-color: #424558;
+}
+
+.white-background{
+    background-color: #fff;
+}
+
+.blue-font{
+    color: #424558;
+}
+
+.white-font{
+   color: #fff; 
+}
+
+.photo-container{
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    background-image: url('photo-profil.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.section-title{
+    margin: 12.5px 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+}
+
+.section-subtitle{
+    color: #a0a0a0;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+}
+
+.bigger-title {
+    font-size: 30px;
+}
+
+.download-button{
+    display: block;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+=======
+}
+
+nav li:hover > a{
+   color: #424558;
+}
+
+.menu-nav > a{
+    display: flex;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #fff;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    padding: 30px 20px;
+}
+
+.blue-background{
+    background-color: #424558;
+}
+
+.white-background{
+    background-color: #fff;
+}
+
+.blue-font{
+    color: #424558;
+}
+
+.white-font{
+   color: #fff; 
+}
+
+.photo-container{
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    background-image: url('photo-profil.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.section-title{
+    margin: 12.5px 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+}
+
+.section-subtitle{
+    color: #a0a0a0;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+}
+
+.bigger-title {
+    font-size: 30px;
+}
+
+.download-button{
+    display: block;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+>>>>>>> 570e0ec... Redesign project
+.dash{
+   width: 60px;
+   height: 1px;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.skills-content{
+	width: 300px;
+}
+
+.low-margin-right{
+    margin-right: 50px;    
+}
+
+.skills{
+   height: 20px;
+	background-color: rgba(198, 198, 198, 0.5);
+	margin-bottom: 20px;
+   border-radius: 2px;
+}
+
+.skills div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 20px;
+	text-align: center;
+	background-color: rgba(66, 69, 88, 1);
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 11px;
+   border-top-left-radius: 2px;
+   border-bottom-left-radius: 2px;
+}
+
+#application-support div,
+#user-support div{
+   width: 90%;
+}
+
+#html div,
+#css div,
+#sql div,
+#incident-management div{
+   width: 80%;
+}
+
+#web-development div,
+#responsive-web-design div,
+#oracle div{
+    width: 70%;
+}
+
+#javascript div{
+    width: 60%;
+}
+
+.education-content-block{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 300px;
+   padding: 20px;
+   border-radius: 3px;
+   background-color: rgba(198, 198, 198, 0.5);
+   line-height: 2;
+   text-align: center;
+}
+
+.content-block-title{
+   font-size: 15px;
+   font-weight: bold;
+}
+
+.content-block-subtitle{
+   font-size: 12px;
+   font-weight: bold;
+}
+
+.great-margin-right{
+   margin-right: 100px;
+}
+
+
+.date-and-location{
+   font-size: 12px;
+   color: rgba(66, 69, 88, 0.7);
+}
+
+.education-content-block .dash{
+   width: 30px;
+   height: 1px;
+   margin: 10px;
+}
+
+.description{
+   font-size: 12px;
+}
+
+.education-content-block svg{
+   width: 24px;
+   height: 24px;
+   fill: rgba(66, 69, 88, 1);
+   margin-bottom: 5px;
+}
+
+/* Timeline */
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+#experience *{
+=======
+#experience-section *{
+>>>>>>> 570e0ec... Redesign project
+=======
+#experience *{
+>>>>>>> 685f97c... update
+   box-sizing: border-box;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline{
+   position: relative;
+   max-width: 1200px;
+   margin: 30px auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after{
+   content: '';
+   position: absolute;
+   width: 6px;
+   background-color: #c0c0c0;
+   top: 0;
+   bottom: 0;
+   left: 50%;
+   margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+   padding: 10px 40px;
+   position: relative;
+   background-color: inherit;
+   width: 50%;
+}
+
+/* The actual content */
+.experience-content-block{
+   position: relative;
+   padding: 10px;
+   border-radius: 3px;
+   background-color: #fff;
+   line-height: 1.75;
+}
+
+/* The circles on the timeline */
+.container::after{
+   content: '';
+   position: absolute;
+   top: 15px;
+   width: 25px;
+   height: 25px;
+   right: -17px;
+   background-color: #fff;
+   background-image: url('briefcase.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   border: 4px solid #fff;
+   border-radius: 50%;
+   z-index: 1;
+}
+
+/* Place the container to the left */
+.left{
+   left: 0;
+}
+
+/* Place the container to the right */
+.right{
+   left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before{
+   content: " ";
+   height: 0;
+   position: absolute;
+   top: 22px;
+   width: 0;
+   z-index: 1;
+   right: 30px;
+   border: medium solid white;
+   border-width: 10px 0 10px 10px;
+   border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before{
+   content: " ";
+   height: 0;
+   position: absolute;
+   top: 22px;
+   width: 0;
+   z-index: 1;
+   left: 30px;
+   border: medium solid white;
+   border-width: 10px 10px 10px 0;
+   border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after{
+   left: -16px;
+}
+
+.contact{
+   display: flex;
+   flex-direction: column;
+   width: auto;
+   padding: 20px;
+   border-radius: 3px;
+   background-color: rgba(198, 198, 198, 0.5);
+   line-height: 2;
+   text-align: center;
+   font-family: var(--main-font-family);
+   margin-top: 30px;
+}
+
+.contact-item{
+   display: flex;
+   flex-direction: column;
+   font-size: 12px;
+}
+
+.contact-item > *{
+   display: flex;
+   align-items: center;
+}
+
+.contact-item svg{
+   fill: rgba(66, 69, 88, 1);
+   width: 20px;
+   height: 20px;
+}
+
+.contact-item a{
+   text-decoration: none;
+   color: rgba(66, 69, 88, 1);
+}
+
+.contact-item span{
+   color: rgba(66, 69, 88, 1);
+}
+
+.low-margin-bottom{
+   margin-bottom: 20px;
+}
+
+.very-low-margin-right{
+   margin-right: 10px;
+}
+
+
+#slider, .slide-content{
+   margin: 0;
+   padding: 0;
+	overflow: hidden;
+   width: 100%;
+   height: 100%;
+}
+
+#slider{
+   display: flex;
+   justify-content: center;
+}
+
+.wrap{
+   position: relative;
+   width: 200px;
+   height: 200px;
+}
+
+.slide1{
+	background: url('responsive-design-symbol.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+}
+
+.slide2{
+	background: url('flight.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+}
+
+.slide3{
+	background: url('music-album.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+}
+
+.slide4{
+	background: url('trophy.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+}
+
+.slide-content{
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   color: #fff;
+   font-size: 11px;
+   text-transform: uppercase;
+}
+
+.arrow{
+   cursor: pointer;
+   border-style: solid;
+   position: absolute;
+   top: 50%;
+   width: 0;
+   height: 0;
+}
+
+#arrow-left{
+   border-width: 5px 10px 5px 0;
+   border-color: transparent #fff transparent transparent;
+   left: 5px;
+}
+
+#arrow-right{
+   border-width: 5px 0 5px 10px;
+   border-color: transparent transparent transparent #fff;
+   right: 5px;
+}
+
+.dots-list{
+   display: flex;
+   margin-top: 10px;
+}
+
+.dots{
+   display: block;
+   width: 5px;
+   height: 5px;
+   list-style-type: circle;
+   border-radius: 50%;
+   border: 1px solid #fff;
+}
+
+.dots:nth-child(1),
+.dots:nth-child(2),
+.dots:nth-child(3){
+   margin-right: 5px;
+}
+
+footer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #333;
+   font-size: 10px;
+   color: #fff;
+}
+
+footer > *:first-child{
+   margin-top: 5px;
+   margin-bottom: 3px;
+}
+
+footer > *:nth-child(2){
+   margin-bottom: 10px;
+}
+
+footer > *:nth-child(3){
+   display: flex;
+   align-items: center;
+   margin-bottom: 5px;
+}
+
+.top-arrow{
+   border-style: solid;
+   border-width: 0px 5px 10px 5px;
+   border-color: transparent transparent #fff transparent;
+}
+
+#responsive-menu{
+      position: absolute;
+      right: 20px;
+      width: 24px;
+      height: 24px;
+      padding: 1px 3px;
+      border-radius: 2px;
+}
+   
+#navigation-bar{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+<<<<<<< HEAD
+<<<<<<< HEAD
+      z-index: 100;
+}
+
+@media screen and (max-width:767px){
+   
+   .vertical-menu.show{
+      transform: translateY(0);
+      position: fixed;
+      z-index: 10;
+      transition: transform 0.5s;
+   }
+   
+   .vertical-menu > ul > li{
+      width: 120px;
+      padding: 3px;
+   }
+   
+    .menu-nav > a{
+=======
+=======
+      z-index: 100;
+>>>>>>> 685f97c... update
+}
+
+@media screen and (max-width:767px){
+   
+   .vertical-menu.show{
+      transform: translateY(0);
+      position: fixed;
+      z-index: 10;
+      transition: transform 0.5s;
+   }
+   
+   .vertical-menu > ul > li{
+      width: 120px;
+      padding: 5px;
+   }
+   
+    .menu-nav > a{
+<<<<<<< HEAD
+      width: 100%;
+      justify-content: center;
+>>>>>>> 570e0ec... Redesign project
+=======
+>>>>>>> 685f97c... update
+      font-size: 13px;
+   }
+}
+
+@media screen and (max-width:600px){
+   .wrapper{
+      flex-direction: column;
+      align-items: center;
+   }
+   
+   .skills-content{
+      width: 100%;
+   }
+   
+   .low-margin-right{
+      margin-right: 0;
+   }
+   
+   .great-margin-right{
+      margin-right: 0;
+      margin-bottom: 50px;
+   }
+   
+   .education-content-block{
+      width: 70%;
+   }
+   
+   .timeline::after{
+      left: 0%;
+      margin-left: -3px;
+   }
+   
+   .container{
+      width: 100%;
+   }
+   
+   .right{
+      left: 0;
+   }
+   
+   .left.container::after{
+      left: -17px;
+   }
+   
+   .left::before{
+      left: 30px;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+   }
+}
+
+@media screen and (max-width:305px){
+      
+   .contact-item{
+      flex-direction: column;
+      align-items: flex-start;
+   }
+}
+
+@media screen and (max-width:260px){
+      
+   .photo-container{
+      width: 200px;
+      height: 200px;
+   }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   
+   .form, fieldset{
+      padding: 10px;
+   }
+>>>>>>> 570e0ec... Redesign project
+=======
+>>>>>>> 685f97c... update
+}
