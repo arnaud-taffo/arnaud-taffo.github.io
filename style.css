@@ -13,7 +13,6 @@ nav{
    height: 30px;
    border-bottom: 1px solid #fff;
    z-index: 10;
-<<<<<<< HEAD
 }
 
 .nav-container{
@@ -22,16 +21,6 @@ nav{
    justify-content: center;
 }
 
-=======
-}
-
-.nav-container{
-   width: 100%;
-   display: flex;
-   justify-content: center;
-}
-
->>>>>>> 570e0ec... Redesign project
 nav ul{
    display: flex;
    justify-content: center;
@@ -43,7 +32,6 @@ nav ul li{
 
 nav li:hover{
    background-color: #fff;
-<<<<<<< HEAD
 }
 
 nav li:hover > a{
@@ -148,87 +136,6 @@ nav li:hover > a{
     font-size: 10px;
 }
 
-=======
-}
-
-nav li:hover > a{
-   color: #424558;
-}
-
-.menu-nav > a{
-    display: flex;
-    padding: 10px 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 11px;
-    color: #fff;
-}
-
-.section{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: auto;
-    padding: 30px 20px;
-}
-
-.blue-background{
-    background-color: #424558;
-}
-
-.white-background{
-    background-color: #fff;
-}
-
-.blue-font{
-    color: #424558;
-}
-
-.white-font{
-   color: #fff; 
-}
-
-.photo-container{
-    width: 250px;
-    height: 250px;
-    border-radius: 250px;
-    background-image: url('photo-profil.jpg');
-    background-size: cover;
-    margin-top: 20px;
-}
-
-.section-title{
-    margin: 12.5px 0;
-    text-transform: uppercase;
-    font-size: 22px;
-    text-align: center;
-}
-
-.section-subtitle{
-    color: #a0a0a0;
-    text-transform: uppercase;
-    font-size: 11px;
-    text-align: center;
-}
-
-.bigger-title {
-    font-size: 30px;
-}
-
-.download-button{
-    display: block;
-    border: 1px solid #fff;
-    color: #fff;
-    border-radius: 3px;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 20px;
-    padding: 10px;
-    font-size: 10px;
-}
-
->>>>>>> 570e0ec... Redesign project
 .dash{
    width: 60px;
    height: 1px;
@@ -343,15 +250,7 @@ nav li:hover > a{
 
 /* Timeline */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 #experience *{
-=======
-#experience-section *{
->>>>>>> 570e0ec... Redesign project
-=======
-#experience *{
->>>>>>> 685f97c... update
    box-sizing: border-box;
 }
 
@@ -639,8 +538,6 @@ footer > *:nth-child(3){
       display: flex;
       justify-content: flex-end;
       align-items: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
       z-index: 100;
 }
 
@@ -659,33 +556,6 @@ footer > *:nth-child(3){
    }
    
     .menu-nav > a{
-=======
-=======
-      z-index: 100;
->>>>>>> 685f97c... update
-}
-
-@media screen and (max-width:767px){
-   
-   .vertical-menu.show{
-      transform: translateY(0);
-      position: fixed;
-      z-index: 10;
-      transition: transform 0.5s;
-   }
-   
-   .vertical-menu > ul > li{
-      width: 120px;
-      padding: 5px;
-   }
-   
-    .menu-nav > a{
-<<<<<<< HEAD
-      width: 100%;
-      justify-content: center;
->>>>>>> 570e0ec... Redesign project
-=======
->>>>>>> 685f97c... update
       font-size: 13px;
    }
 }
@@ -751,14 +621,4 @@ footer > *:nth-child(3){
       width: 200px;
       height: 200px;
    }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-   
-   .form, fieldset{
-      padding: 10px;
-   }
->>>>>>> 570e0ec... Redesign project
-=======
->>>>>>> 685f97c... update
 }

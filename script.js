@@ -3,26 +3,11 @@ const $$window = window;
 const $$navContainer = document.querySelector(".nav-container");
 const $$navBar = document.getElementById("navigation-bar");
 const $$responsiveMenu = document.getElementById("responsive-menu");
-<<<<<<< HEAD
-<<<<<<< HEAD
 const $$verticalMenu = document.querySelector(".vertical-menu");
 /*const $$styleElementNavBar = document.createElement("style");
 const $$styleElementNavContainer = document.createElement("style");
 const $$styleElementButton = document.createElement("style");*/
 const $$listElementLink = document.querySelectorAll(".vertical-menu > ul > li");
-=======
-/*const $$styleElementNavBar = document.createElement("style");
-const $$styleElementNavContainer = document.createElement("style");
-const $$styleElementButton = document.createElement("style");*/
-const $$listElementLink = document.querySelectorAll(".nav-container > ul > li");
->>>>>>> 570e0ec... Redesign project
-=======
-const $$verticalMenu = document.querySelector(".vertical-menu");
-/*const $$styleElementNavBar = document.createElement("style");
-const $$styleElementNavContainer = document.createElement("style");
-const $$styleElementButton = document.createElement("style");*/
-const $$listElementLink = document.querySelectorAll(".vertical-menu > ul > li");
->>>>>>> 685f97c... update
 let sliderImages = Array.from(document.querySelectorAll(".slide"));
 let dotsList = Array.from(document.querySelectorAll(".dots"));
 const arrowLeft = document.querySelector("#arrow-left");
@@ -132,14 +117,7 @@ function handleEventScreenResize(event){
     
     else if (event.target && $$window.innerWidth > 767 && isResponsive == true){
         hide($$responsiveMenu);
-<<<<<<< HEAD
-<<<<<<< HEAD
         hide($$verticalMenu);
-=======
->>>>>>> 570e0ec... Redesign project
-=======
-        hide($$verticalMenu);
->>>>>>> 685f97c... update
         show($$navContainer);
         isResponsive = false;
     }
@@ -149,8 +127,6 @@ function bindEventClick(element){
     element.addEventListener("click", handleEventClick);
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 function handleEventClickLink(){
     countNumberOfClick ++;
     if (isResponsive){
@@ -163,57 +139,18 @@ function handleEventClickLink(){
 function handleEventClick(){
     countNumberOfClick ++;
     showMenu();
-=======
-function handleEventClickLink(event){
-=======
-function handleEventClickLink(){
->>>>>>> 685f97c... update
-    countNumberOfClick ++;
-    if (isResponsive){
-        hide($$verticalMenu);
-        hide($$close);
-        show($$menu);
-    }
-}
-
-function handleEventClick(){
-    countNumberOfClick ++;
-<<<<<<< HEAD
-    if (event.target){
-        showMenu();
-    }
->>>>>>> 570e0ec... Redesign project
-=======
-    showMenu();
->>>>>>> 685f97c... update
 }
 
 function showMenu(){
  
     if (countNumberOfClick % 2 == 0){
-<<<<<<< HEAD
-<<<<<<< HEAD
        hide($$verticalMenu);
-=======
-       hide($$navContainer);
->>>>>>> 570e0ec... Redesign project
-=======
-       hide($$verticalMenu);
->>>>>>> 685f97c... update
        hide($$close);
        show($$menu);
     }
     
     else{
-<<<<<<< HEAD
-<<<<<<< HEAD
         show($$verticalMenu);
-=======
-        show($$navContainer);
->>>>>>> 570e0ec... Redesign project
-=======
-        show($$verticalMenu);
->>>>>>> 685f97c... update
         hide($$menu);
         show($$close);
     }
@@ -222,25 +159,10 @@ function showMenu(){
 function show(element){
     element.style.display = 'block';
     setTimeout(() => element.classList.add("show"));
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
 
 function hide(element){
     setTimeout(() => element.classList.remove("show"));
-=======
-    
-}
-
-function hide(element){
-    setTimeout(element.classList.remove("show"));
->>>>>>> 570e0ec... Redesign project
-=======
-}
-
-function hide(element){
-    setTimeout(() => element.classList.remove("show"));
->>>>>>> 685f97c... update
     element.style.display = 'none';
     //setTimeout(() => element.style.display = 'none');
     //if (element.id == "menu" || element.id == "close" || element.id == "responsive-menu") {
